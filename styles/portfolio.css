@@ -13,6 +13,13 @@
 .text-primary{
     color: #FD6E0A
 }
+
+                                 /* header  style*/
+.header{
+  background-image: url('../images/developer.png') , url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
 /* nav style */
 nav{
     display: flex;
@@ -48,6 +55,7 @@ nav li a {
   font-size: 20px;
 
 }
+
                                                            /* banner styles  */
 .banner{
   display: flex;
@@ -65,7 +73,8 @@ font-weight:bold ;
 font-size: 85px ;
 }
 .banner-pic{
-  width: 45px;
+  width: 584px;
+  height: 676px;
 }
 .banner-content{
   max-width: 580px;
